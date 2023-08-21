@@ -8,7 +8,7 @@ const App = () => {
   return (
     <View style={{ flex: 1 }}>
       <LoginScreen/> 
-      {/* <Map/> */}
+      {/* <Map user={{role:'client'}}/> */}
     </View>
   );
 };

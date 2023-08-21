@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {View} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import Geolocation from '@react-native-community/geolocation';
 import MapView, {Marker} from 'react-native-maps';
@@ -20,6 +19,11 @@ const MapContainer = ({user}) => {
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         });
+         const orderObj = {
+          id: '1',
+          coordinate: {latitude, longitude},
+        };
+        updateOrder(orderObj, user.role);
       },
       error => console.log(error),
       {enableHighAccuracy: true},
