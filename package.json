@@ -14,10 +14,12 @@
     "@react-native-firebase/app": "^18.3.0",
     "@react-native-firebase/auth": "^18.3.0",
     "@react-native-firebase/firestore": "^18.3.0",
+    "axios": "1.13.5",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-maps": "^1.7.1",
-    "react-native-permissions": "^3.8.4"
+    "react-native-permissions": "^3.8.4",
+    "socket.io-client": "4.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
