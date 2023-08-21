@@ -7,8 +7,8 @@ import Map from "./src/map";
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <LoginScreen/> 
-      {/* <Map/> */}
+      {/* <LoginScreen/>  */}
+      <Map user={{role:'client'}}/>
     </View>
   );
 };
