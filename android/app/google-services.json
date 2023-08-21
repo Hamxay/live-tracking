@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "684710569644",
+    "project_id": "maptest-21062",
+    "storage_bucket": "maptest-21062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684710569644:android:21640dced18d6bb34ba109",
+        "android_client_info": {
+          "package_name": "com.maptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684710569644-9efcn8c1j5dqfvcp1v06g4oh88feu4vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFzi48yAIbxFm0WkYkjnr4PO1BrVfOrtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684710569644-9efcn8c1j5dqfvcp1v06g4oh88feu4vt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "684710569644-3hv3i9shl36csqtca2qof9g6gm8j0lct.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.maptest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
